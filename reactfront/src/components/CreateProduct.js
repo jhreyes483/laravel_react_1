@@ -12,7 +12,12 @@ const CreateProduct = () => {
 
     const store = async (e) => {
         e.preventDefault()
-        await axios.post(endpoint, {description: description, price: price, stock: stock})
+        data ={
+             description: description,
+             price: price, 
+             stock: stock
+            }
+        await axios.post(endpoint, data)
         navigate('/')
     }
     
