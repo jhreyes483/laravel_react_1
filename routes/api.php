@@ -24,7 +24,7 @@ Route::controller(ProductController::class)->group(function(){
     Route::post('/product','store');
     Route::get('/product/{id}','show');
     Route::put('/product/{id}','update');
-    Route::delete('/product/{id}','update');
+    Route::delete('/product/{id}','destroy');
 });
 
 
