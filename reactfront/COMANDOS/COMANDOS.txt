@@ -1,9 +1,14 @@
-CREAR PROYECTO
+https://www.youtube.com/watch?v=_aj_adg1jeI&list=RDCMUCLa5WaffYWAaJY09_l863yw&start_radio=1&rv=_aj_adg1jeI&t=3
+
+"CREAR PROYECTO
 npx create-react-app reactfront
 o
-i -g create-react-app
+i -g create-react-app"
 
 
 LIMPIAR CACHE
 npm cache verify
 npm cache clean --force
+
+"INSTALAR DEPENDENCIAS
+npm i axios bootstrap react-router-dom@6"
