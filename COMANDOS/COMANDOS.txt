@@ -14,3 +14,7 @@ php artisan migrate"
 
 "Creacion de rutas
 php artisan route:list"
+
+
+extencion
+Thunder Client

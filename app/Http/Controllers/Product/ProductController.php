@@ -19,8 +19,8 @@ class ProductController extends Controller
     {
         $product = new Product();
         $product->description = $request->description;
-        $product->description = $request->price;
-        $product->description = $request->stock;
+        $product->price       = $request->price;
+        $product->stock       = $request->stock;
         $product->save();
     }
 
@@ -34,8 +34,8 @@ class ProductController extends Controller
     {
         $product = Product::findOrFail($request->id);
         $product->description = $request->description;
-        $product->description = $request->price;
-        $product->description = $request->stock;
+        $product->price       = $request->price;
+        $product->stock       = $request->stock;
         $product->save();
         return $product;
     }
