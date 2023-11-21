@@ -11,3 +11,6 @@ php artisan make:model Product -m"
 
 "Crear y ejecutar migraciones
 php artisan migrate"
+
+"Creacion de rutas
+php artisan route:list"
