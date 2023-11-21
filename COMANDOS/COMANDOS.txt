@@ -1,0 +1,13 @@
+https://www.youtube.com/watch?v=dyQLsQm1EtI&list=RDCMUCLa5WaffYWAaJY09_l863yw&index=2
+Crear proyecto 
+composer create-project laravel/laravel nameproyect
+----------------------
+
+Crear controlers tipo api
+php artisan make:controller Product/ProductController --api  (crea metodos de api  o --resourse todos los metodos crud)
+
+"Crear model + migracion
+php artisan make:model Product -m"
+
+"Crear y ejecutar migraciones
+php artisan migrate"
