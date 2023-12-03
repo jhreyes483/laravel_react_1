@@ -33,9 +33,9 @@ const EditProduct = () => {
         }, [] )
 
     return (
-        <div>
+        <div className="container mt-4">
         <h3>Edit Product</h3>
-        <form onSubmit={update}>
+        <form onSubmit={update} className="col-8 mx-auto">
             <div className='mb-3'>
                 <label className='form-label'>Description</label>
                 <input 

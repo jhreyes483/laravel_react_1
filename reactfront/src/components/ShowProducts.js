@@ -22,12 +22,12 @@ const ShowProducts = () => {
         getAllProducts()
     }
     return (
-        <div>
-            <div className="d-grid grap-2"> 
-                <Link to="/create" className="btn btn-success btn-lg mt-2 mb-2 text-white" >Crear</Link>
+        <div className='container'>
+            <div className="d-grid grap-2 col-3 mx-auto mt-4"> 
+            <Link to={`/create`} className="btn btn-success btn-lg mt-2 mb-2 text-white">Crear</Link>
             </div>
 
-            <table className="table table-striped">
+            <table className="table table-striped table-responsive mt-4">
             <thead className="bg-primary text-white">
                 <tr>
                     <th> Descripcion</th>

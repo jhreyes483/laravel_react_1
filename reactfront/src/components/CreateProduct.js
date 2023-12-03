@@ -11,6 +11,7 @@ const CreateProduct = () => {
     const navigate = useNavigate()
 
     const store = async (e) => {
+        var data = {};
         e.preventDefault()
         data ={
              description: description,

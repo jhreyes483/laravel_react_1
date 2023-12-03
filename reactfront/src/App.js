@@ -11,7 +11,8 @@ import EditProduct from './components/EditProduct';
 function App() {
   return (
     <div className="App">
-      <button className='btn btn-primary'>Crear</button>
+      
+
         <BrowserRouter>
         <Routes>
           <Route path='/' element={ <ShowProducts/> }/>
