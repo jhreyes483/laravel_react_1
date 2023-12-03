@@ -5,8 +5,8 @@
  - react: 18.2.0
 
 ### 1. Entorno de desarrollo optimo
-- npm -v 10.2.4
-- node -v 20.9.0
+- npm -v 6.14.12
+- node -v 14.16-12
 - Composer  Dependency Manager for PHP - version 2.6.5
 - php 7.4
 
